@@ -5,8 +5,7 @@ from PIL import Image
 
 # --- CONFIGURATION ---
 # 1. PASTE YOUR API KEY HERE
-API_KEY = "AIzaSyAAU8GONhM9cRZUEUaBvPTPyjL6zQnxi6U" 
-
+API_KEY = "YOUR_API_KEY_HERE"
 # Configure the AI model
 genai.configure(api_key=API_KEY)
 
@@ -62,4 +61,5 @@ if uploaded_file is not None:
                 with st.expander("See Technical Details (For Judges)"):
                     st.write("Gemini 2.5 recognized the object and triggered the `check_inventory_database` function.")
             except Exception as e:
+
                 st.error(f"An error occurred: {e}")
