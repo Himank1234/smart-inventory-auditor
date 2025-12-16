@@ -1,0 +1,22 @@
+{
+    "drill": {
+        "stock": 15,
+        "price": 120,
+        "location": "Aisle 4"
+    },
+    "hammer": {
+        "stock": 42,
+        "price": 15,
+        "location": "Aisle 2"
+    },
+    "monitor": {
+        "stock": 8,
+        "price": 250,
+        "location": "Tech Room"
+    },
+    "orange": {
+        "stock": 100,
+        "price": 1,
+        "location": "Kitchen"
+    }
+}
